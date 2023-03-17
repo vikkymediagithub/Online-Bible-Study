@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/assets/css/Sign-in.css">
+    <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+    <link rel="shortcut icon" href="/images/favicon 1.png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-button" onclick="login()">Login</button>
+                <button type="button" class="toggle-button" onclick="register()">Register</button>
+            </div>
+            <div class="social-icons">
+                <img src="/images/facebook.png">
+                <img src="/images/github (2).png">
+                <img src="/images/twitter.png">
+            </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User-Id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password?</span>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Full-Name" required>
+                <input type="text" class="input-field" placeholder="Enter your Email" required>
+                <input type="text" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>I agree to the terms & conditions</span>
+                <button type="submit"  class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="/assets/js/sign-in.js"></script>
+</body>
+</html>
